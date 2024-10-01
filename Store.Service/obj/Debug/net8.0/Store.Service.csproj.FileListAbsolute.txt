@@ -1,0 +1,17 @@
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Service.deps.json
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Service.dll
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Service.pdb
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.AssemblyInfoInputs.cache
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.AssemblyInfo.cs
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.csproj.CoreCompileInputs.cache
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.dll
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\refint\Store.Service.dll
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.pdb
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\ref\Store.Service.dll
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Data.dll
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Repository.dll
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Repository.pdb
+E:\backend\C#\api\store\Store.Service\bin\Debug\net8.0\Store.Data.pdb
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Service.csproj.AssemblyReference.cache
+E:\backend\C#\api\store\Store.Service\obj\Debug\net8.0\Store.Se.AEB3E340.Up2Date

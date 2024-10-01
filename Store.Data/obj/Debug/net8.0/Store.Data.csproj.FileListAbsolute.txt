@@ -1,0 +1,12 @@
+E:\backend\C#\api\store\Store.Data\bin\Debug\net8.0\Store.Data.deps.json
+E:\backend\C#\api\store\Store.Data\bin\Debug\net8.0\Store.Data.dll
+E:\backend\C#\api\store\Store.Data\bin\Debug\net8.0\Store.Data.pdb
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.csproj.AssemblyReference.cache
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.AssemblyInfoInputs.cache
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.AssemblyInfo.cs
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.csproj.CoreCompileInputs.cache
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.dll
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\refint\Store.Data.dll
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\Store.Data.pdb
+E:\backend\C#\api\store\Store.Data\obj\Debug\net8.0\ref\Store.Data.dll
