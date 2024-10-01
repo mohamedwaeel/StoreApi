@@ -13,7 +13,8 @@ namespace Store.Service.Services.ProductServices.Dtos
     {
         private readonly IConfiguration _configuration;
 
-        public ProductPictureUrlResolver(IConfiguration configuration) {
+        public ProductPictureUrlResolver(IConfiguration configuration)
+        {
             _configuration = configuration;
         }
         public string Resolve(Product source, ProductDetailsDto destination, string destMember, ResolutionContext context)
@@ -21,7 +22,8 @@ namespace Store.Service.Services.ProductServices.Dtos
             if (string.IsNullOrEmpty(source.PicutreUrl))
             {
                 return $"{_configuration["BaseUrl"]}/{source.PicutreUrl}";
-        }
+            }
             return null;
+        }
     }
 }

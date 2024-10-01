@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Store.Data.Entities;
 using Store.Repository.Interfaces;
+using Store.Repository.Specification.ProductSpecs;
+using Store.Service.Helper;
 using Store.Service.Services.ProductServices.Dtos;
 using System;
 using System.Collections.Generic;
@@ -27,11 +29,19 @@ namespace Store.Service.Services.ProductServices
             return mappedBrands;
         }
 
-        public async Task<IReadOnlyList<ProductDetailsDto>> GetAllProductsAsync()
+        public async Task<PaginatedResultDto<ProductDetailsDto>> GetAllProductsAsync(ProductSpecification input)
         {
-            var products=await _unitOfWork.Repository<ProductEntity, int>().GetAllAsNoTrackingAsync();
+            var specs = new ProductWithSpecification(input);
+
+
+            var products=await _unitOfWork.Repository<ProductEntity, int>().GetAllWithSpecificationAsync(specs);
+
+
+            var countSpecs = new ProductWithCountSpecification(input);
+            var count= await _unitOfWork.Repository<ProductEntity, int>().GetCountSpecificationAsync(countSpecs);
+
           var mappedProducts=_mapper.Map < IReadOnlyList < ProductDetailsDto >>(products);
-            return mappedProducts;
+            return new PaginatedResultDto<ProductDetailsDto>(input.PageIndex,input.PageSize,count,mappedProducts);
         }
 
         public async Task<IReadOnlyList<BrandTypeDetailsDto>> GetAllTypesAsync()
@@ -44,7 +54,12 @@ namespace Store.Service.Services.ProductServices
         public async Task<ProductDetailsDto> GetProductByIdAsynx(int? productId)
         {if (productId is null)
                 throw new Exception("Id is null");
-            var product = await _unitOfWork.Repository<ProductEntity, int>().GetByIdAsync(productId.Value);
+
+
+        var specs = new ProductWithSpecification(productId);
+
+
+            var product = await _unitOfWork.Repository<ProductEntity, int>().GetWithSpecificationByIdAsync(specs);
             if (product is null)
                 throw new Exception("prroduct is null");
            var mappedProduct= _mapper.Map<ProductDetailsDto>(product);  

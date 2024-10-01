@@ -143,3 +143,4 @@ E:\backend\C#\api\store\Store.Web\bin\Debug\net8.0\Store.Repository.dll
 E:\backend\C#\api\store\Store.Web\bin\Debug\net8.0\Store.Service.dll
 E:\backend\C#\api\store\Store.Web\bin\Debug\net8.0\Store.Repository.pdb
 E:\backend\C#\api\store\Store.Web\bin\Debug\net8.0\Store.Service.pdb
+E:\backend\C#\api\store\Store.Web\obj\Debug\net8.0\Store.Web.sourcelink.json

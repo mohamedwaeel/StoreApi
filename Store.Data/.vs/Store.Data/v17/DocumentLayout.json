@@ -1,26 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\backend\\C#\\api\\store\\Store.Data\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF3AF9AA-1A3A-43AD-A1ED-BFDF9AE2DB09}|..\\Store.Service\\Store.Service.csproj|e:\\backend\\c#\\api\\store\\store.service\\services\\productservices\\dtos\\productpictureurlresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF3AF9AA-1A3A-43AD-A1ED-BFDF9AE2DB09}|..\\Store.Service\\Store.Service.csproj|e:\\backend\\c#\\api\\store\\store.service\\services\\productservices\\dtos\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\store.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -28,89 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Service\\Services\\ProductServices\\Dtos\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "..\\Store.Service\\Services\\ProductServices\\Dtos\\ProductProfile.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Service\\Services\\ProductServices\\Dtos\\ProductProfile.cs",
-              "RelativeToolTip": "..\\Store.Service\\Services\\ProductServices\\Dtos\\ProductProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:10:28.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductPictureUrlResolver.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Service\\Services\\ProductServices\\Dtos\\ProductPictureUrlResolver.cs",
-              "RelativeDocumentMoniker": "..\\Store.Service\\Services\\ProductServices\\Dtos\\ProductPictureUrlResolver.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Service\\Services\\ProductServices\\Dtos\\ProductPictureUrlResolver.cs",
-              "RelativeToolTip": "..\\Store.Service\\Services\\ProductServices\\Dtos\\ProductPictureUrlResolver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:05:44.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Program.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
-              "RelativeToolTip": "..\\Store.Web\\Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAiwCsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:45:42.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\Store.Web\\appsettings.json",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\appsettings.json",
-              "RelativeToolTip": "..\\Store.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-30T12:57:55.751Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Store.Web",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Store.Web.csproj",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Store.Web.csproj",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Store.Web.csproj",
-              "RelativeToolTip": "..\\Store.Web\\Store.Web.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T12:57:45.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "..\\Store.Web\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:45:03.902Z",
-              "EditorCaption": ""
             }
           ]
         }
