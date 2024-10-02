@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JeAL58T/vdw3wLChV7f2ZuTFKbKi73RgpnF40LTUF4lph/A0M07RYscC8aWGmKFKu3yVLcjm64jbdEEm2nGawA==",
+  "dgSpecHash": "RnunMwLZYfH3ByYfFtm4QGTzGyd+q8SeBGeT5EETooCF8c4i8etYeEPH0ucJPRoWCs57M9Tb+qZLDAAN/xBtQg==",
   "success": true,
   "projectFilePath": "E:\\backend\\C#\\api\\store\\Store.Web\\Store.Web.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Users\\Wael\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Wael\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Wael\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Wael\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Wael\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
     "C:\\Users\\Wael\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Wael\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Wael\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -1,13 +1,18 @@
 
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Store.Data.Contexts;
 using Store.Repository;
 using Store.Repository.Interfaces;
 using Store.Repository.Repositories;
+using Store.Service.HandleResponse;
 using Store.Service.Services.ProductServices;
 using Store.Service.Services.ProductServices.Dtos;
 using Store.Web.Helper;
+using Store.Web.Middleware;
+using Store.Web.Extensions;
+using StackExchange.Redis;
 namespace Store.Web
 {
     public class Program
@@ -23,12 +28,15 @@ namespace Store.Web
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped<IProductServices, ProductServices>();
-            builder.Services.AddAutoMapper(typeof(ProductProfile));
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
 
+            builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
+            {
+                var configurations = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"));
+                return ConnectionMultiplexer.Connect(configurations);
+            }
+            );
+
+            builder.Services.AddApplicationServices();
             var app = builder.Build();
 
             await ApplySeeding.ApplySeedingAsync(app); // Properly await the async operation
@@ -39,6 +47,7 @@ namespace Store.Web
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
