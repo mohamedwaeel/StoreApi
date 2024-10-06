@@ -29,6 +29,13 @@ namespace Store.Web
             });
 
 
+            builder.Services.AddDbContext<StoreIdentityDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+            });
+
+
+
             builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
             {
                 var configurations = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"));
@@ -37,6 +44,7 @@ namespace Store.Web
             );
 
             builder.Services.AddApplicationServices();
+            builder.Services.AddIdentityService();
             var app = builder.Build();
 
             await ApplySeeding.ApplySeedingAsync(app); // Properly await the async operation
@@ -51,6 +59,7 @@ namespace Store.Web
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();
 

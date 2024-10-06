@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "E:\\backend\\C#\\api\\store\\Store.Data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\helper\\cacheattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\helper\\applyseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C6EA7C-C792-4FF4-8FF6-F9F1ECD64175}|..\\Store.Repository\\Store.Repository.csproj|e:\\backend\\c#\\api\\store\\store.repository\\storeidentitycontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,14 +24,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "..\\Store.Web\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Store.Web\\Program.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
+              "RelativeToolTip": "..\\Store.Web\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T10:04:01.423Z",
+              "WhenOpened": "2024-10-06T13:26:11.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplySeeding.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\ApplySeeding.cs",
+              "RelativeDocumentMoniker": "..\\Store.Web\\Helper\\ApplySeeding.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\ApplySeeding.cs",
+              "RelativeToolTip": "..\\Store.Web\\Helper\\ApplySeeding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:23:34.943Z",
               "EditorCaption": ""
             },
             {
@@ -37,15 +53,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CacheAttribute.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\CacheAttribute.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Helper\\CacheAttribute.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\CacheAttribute.cs",
-              "RelativeToolTip": "..\\Store.Web\\Helper\\CacheAttribute.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAbAAAA",
+              "DocumentIndex": 2,
+              "Title": "StoreIdentityContextSeed.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Repository\\StoreIdentityContextSeed.cs",
+              "RelativeDocumentMoniker": "..\\Store.Repository\\StoreIdentityContextSeed.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Repository\\StoreIdentityContextSeed.cs",
+              "RelativeToolTip": "..\\Store.Repository\\StoreIdentityContextSeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T09:46:53.873Z",
+              "WhenOpened": "2024-10-06T13:10:18.801Z",
               "EditorCaption": ""
             }
           ]
