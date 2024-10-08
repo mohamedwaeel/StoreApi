@@ -3,13 +3,28 @@
   "WorkspaceRootPath": "E:\\backend\\C#\\api\\store\\Store.Data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\helper\\applyseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C6EA7C-C792-4FF4-8FF6-F9F1ECD64175}|..\\Store.Repository\\Store.Repository.csproj|e:\\backend\\c#\\api\\store\\store.repository\\storeidentitycontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,49 +34,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Program.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Program.cs",
-              "RelativeToolTip": "..\\Store.Web\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T13:26:11.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplySeeding.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\ApplySeeding.cs",
-              "RelativeDocumentMoniker": "..\\Store.Web\\Helper\\ApplySeeding.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\Helper\\ApplySeeding.cs",
-              "RelativeToolTip": "..\\Store.Web\\Helper\\ApplySeeding.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T13:23:34.943Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StoreIdentityContextSeed.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Repository\\StoreIdentityContextSeed.cs",
-              "RelativeDocumentMoniker": "..\\Store.Repository\\StoreIdentityContextSeed.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Repository\\StoreIdentityContextSeed.cs",
-              "RelativeToolTip": "..\\Store.Repository\\StoreIdentityContextSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABBAAAA",
+              "Title": "ProductItem.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ProductItem.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\ProductItem.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ProductItem.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\ProductItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T13:10:18.801Z",
+              "WhenOpened": "2024-10-08T16:49:43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderItem.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderItem.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:48:30.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\Order.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\Order.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:40:24.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderPaymentStatus.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderPaymentStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderPaymentStatus.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderPaymentStatus.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\OrderPaymentStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:46:44.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderStatus.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderStatus.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:44:42.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShippingAddress.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ShippingAddress.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderEntities\\ShippingAddress.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ShippingAddress.cs",
+              "RelativeToolTip": "Entities\\OrderEntities\\ShippingAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:41:14.107Z",
               "EditorCaption": ""
             }
           ]
