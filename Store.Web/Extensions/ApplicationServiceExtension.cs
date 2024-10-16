@@ -10,6 +10,8 @@ using Store.Service.Services.BasketService.Dtos;
 using Store.Repository.Basket;
 using Store.Service.Services.TokenService;
 using Store.Service.Services.UserService.cs;
+using Store.Service.Services.OrderService.Dtos;
+using Store.Service.Services.OrderService;
 
 namespace Store.Web.Extensions
 {
@@ -23,11 +25,14 @@ namespace Store.Web.Extensions
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IOrderService, OrderService>();
+
 
             services.AddScoped<IBasketRepository, BasketRepository>();
 
             services.AddAutoMapper(typeof(ProductProfile));
             services.AddAutoMapper(typeof(BasketProfile));
+            services.AddAutoMapper(typeof(OrderProfile));
 
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();

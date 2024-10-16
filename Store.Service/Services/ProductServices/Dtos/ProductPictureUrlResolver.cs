@@ -19,9 +19,9 @@ namespace Store.Service.Services.ProductServices.Dtos
         }
         public string Resolve(Product source, ProductDetailsDto destination, string destMember, ResolutionContext context)
         {
-            if (string.IsNullOrEmpty(source.PicutreUrl))
+            if (string.IsNullOrEmpty(source.PictureUrl))
             {
-                return $"{_configuration["BaseUrl"]}/{source.PicutreUrl}";
+                return $"{_configuration["BaseUrl"]}/{source.PictureUrl}";
             }
             return null;
         }

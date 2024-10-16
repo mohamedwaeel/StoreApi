@@ -12,7 +12,7 @@ namespace Store.Data.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public string PicutreUrl {  get; set; }
+        public string PictureUrl {  get; set; }
         public ProductType Type { get; set; }
         public int TypeId {  get; set; }
         public ProductBrand Brand { get; set; }

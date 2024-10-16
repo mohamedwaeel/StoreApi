@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "E:\\backend\\C#\\api\\store\\Store.Data\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF3AF9AA-1A3A-43AD-A1ED-BFDF9AE2DB09}|..\\Store.Service\\Store.Service.csproj|e:\\backend\\c#\\api\\store\\store.service\\paymentservice\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF3AF9AA-1A3A-43AD-A1ED-BFDF9AE2DB09}|..\\Store.Service\\Store.Service.csproj|e:\\backend\\c#\\api\\store\\store.service\\paymentservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10C6EA7C-C792-4FF4-8FF6-F9F1ECD64175}|..\\Store.Repository\\Store.Repository.csproj|e:\\backend\\c#\\api\\store\\store.repository\\specification\\orderspecs\\orderwithpaymentintentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\orderpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\orderpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|e:\\backend\\c#\\api\\store\\store.data\\entities\\orderentities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F3D3E0-984A-4912-A24C-2721491002B2}|Store.Data.csproj|solutionrelative:entities\\orderentities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC502C1F-9EDB-4936-9EDF-A67BCECDE08A}|..\\Store.Web\\Store.Web.csproj|e:\\backend\\c#\\api\\store\\store.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,80 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductItem.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ProductItem.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\ProductItem.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ProductItem.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\ProductItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Title": "OrderWithPaymentIntentSpecification.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Repository\\Specification\\OrderSpecs\\OrderWithPaymentIntentSpecification.cs",
+              "RelativeDocumentMoniker": "..\\Store.Repository\\Specification\\OrderSpecs\\OrderWithPaymentIntentSpecification.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Repository\\Specification\\OrderSpecs\\OrderWithPaymentIntentSpecification.cs",
+              "RelativeToolTip": "..\\Store.Repository\\Specification\\OrderSpecs\\OrderWithPaymentIntentSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:49:43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T19:50:57.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderItem.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderItem.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\OrderItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Service\\PaymentService\\PaymentService.cs",
+              "RelativeDocumentMoniker": "..\\Store.Service\\PaymentService\\PaymentService.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Service\\PaymentService\\PaymentService.cs",
+              "RelativeToolTip": "..\\Store.Service\\PaymentService\\PaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:48:30.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T19:02:30.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\Order.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\Order.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\Order.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Service\\PaymentService\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "..\\Store.Service\\PaymentService\\IPaymentService.cs",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Service\\PaymentService\\IPaymentService.cs",
+              "RelativeToolTip": "..\\Store.Service\\PaymentService\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:40:24.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderPaymentStatus.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderPaymentStatus.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderPaymentStatus.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderPaymentStatus.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\OrderPaymentStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:46:44.261Z",
+              "WhenOpened": "2024-10-15T18:59:54.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\OrderStatus.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\OrderStatus.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\OrderStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:44:42.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShippingAddress.cs",
-              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ShippingAddress.cs",
-              "RelativeDocumentMoniker": "Entities\\OrderEntities\\ShippingAddress.cs",
-              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Data\\Entities\\OrderEntities\\ShippingAddress.cs",
-              "RelativeToolTip": "Entities\\OrderEntities\\ShippingAddress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T16:41:14.107Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\backend\\C#\\api\\store\\Store.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Store.Web\\appsettings.json",
+              "ToolTip": "E:\\backend\\C#\\api\\store\\Store.Web\\appsettings.json",
+              "RelativeToolTip": "..\\Store.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T19:17:07.513Z"
             }
           ]
         }
