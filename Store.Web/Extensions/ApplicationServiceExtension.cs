@@ -12,6 +12,7 @@ using Store.Service.Services.TokenService;
 using Store.Service.Services.UserService.cs;
 using Store.Service.Services.OrderService.Dtos;
 using Store.Service.Services.OrderService;
+using Store.Service.PaymentService;
 
 namespace Store.Web.Extensions
 {
@@ -26,6 +27,7 @@ namespace Store.Web.Extensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IPaymentService, PaymentService>();
 
 
             services.AddScoped<IBasketRepository, BasketRepository>();
